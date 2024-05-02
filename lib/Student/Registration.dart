@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Student/Student_Page.dart';
 
-void main() {
-  runApp(Registration());
-}
-
 class Registration extends StatelessWidget {
-  Registration();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

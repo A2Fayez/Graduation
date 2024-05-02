@@ -6,10 +6,6 @@ import 'package:second_project/Doctor/Profile_Doc.dart';
 import 'package:second_project/Doctor/Time_TableDoc.dart';
 import 'Subjects.dart';
 
-void main() {
-  runApp(Doctor_Page());
-}
-
 class Doctor {
   final String name;
   final String email;
@@ -167,7 +163,7 @@ class Doctor_Page extends StatelessWidget {
                                   InkWell(
                                     onTap: () {
                                       runApp(MaterialApp(
-                                        home: Time_TableDoc(),
+                                        home: Time_Table(),
                                       ));
                                       // Add your button action here
                                     },

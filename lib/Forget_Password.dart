@@ -4,10 +4,6 @@ import 'package:second_project/Login_Screen.dart';
 
 import 'package:second_project/code_Verfacation.dart';
 
-void main() {
-  runApp(Forget_Password());
-}
-
 class Forget_Password extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:ui'; // Import dart:ui for ImageFilter
 
-void main() {
-  runApp(Code_Verification());
-}
-
 class Code_Verification extends StatelessWidget {
   @override
   Widget build(BuildContext context) {

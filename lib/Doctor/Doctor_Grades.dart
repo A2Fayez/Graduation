@@ -1,10 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Doctor/Doctor_Page.dart';
 
-void main() {
-  runApp(Doctor_Grades());
-}
-
 List<String> options = [
   'عام',
   'علوم الحاسب',

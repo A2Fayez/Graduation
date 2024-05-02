@@ -5,10 +5,6 @@ import 'package:second_project/Doctor/Doctor_Page.dart';
 import 'Change_Pass.dart';
 import 'package:intl/intl.dart';
 
-void main() {
-  runApp(Profile_Doc());
-}
-
 class Doctor {
   final String name;
   final int nationalID;

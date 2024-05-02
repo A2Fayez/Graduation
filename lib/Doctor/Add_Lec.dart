@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Doctor/Doctor_Page.dart';
 
-void main() {
-  runApp(Add_Lec());
-}
-
 class Add_Lec extends StatelessWidget {
-  Add_Lec();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

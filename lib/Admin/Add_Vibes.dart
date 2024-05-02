@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Admin/vibes_screen.dart';
 
-void main() {
-  runApp(Add_Vibes());
-}
-
 class Add_Vibes extends StatelessWidget {
-  Add_Vibes();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

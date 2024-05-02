@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'Profile_Doc.dart';
 
-void main() {
-  runApp(Change_Pass());
-}
-
 class Change_Pass extends StatelessWidget {
-  Change_Pass();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

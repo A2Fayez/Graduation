@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Student/Student_Page.dart';
 
-void main() {
-  runApp(vibes_student());
-}
-
 class vibes_student extends StatelessWidget {
-  // MyApp();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

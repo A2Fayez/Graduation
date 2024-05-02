@@ -2,13 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:second_project/Doctor/Doctor_Page.dart';
 import 'package:second_project/AddAssign.dart';
 
-void main() {
-  runApp(Doctor_Assign());
-}
-
 class Doctor_Assign extends StatelessWidget {
-  //MyApp();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

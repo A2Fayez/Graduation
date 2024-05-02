@@ -10,10 +10,6 @@ import 'package:second_project/Student/Time_Table.dart';
 import 'package:second_project/Student/Profile.dart';
 import 'package:second_project/Student/Registration.dart';
 
-void main() {
-  runApp(Student_Page());
-}
-
 class Student {
   final String name;
   final String level;

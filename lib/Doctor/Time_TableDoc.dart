@@ -1,19 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Doctor/Doctor_Page.dart';
 
-void main() {
-  runApp(Time_TableDoc());
-}
-
-class Time_TableDoc extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: HomePage(),
-    );
-  }
-}
-
 class Appointment {
   final String subject;
   final String time;
@@ -74,14 +61,14 @@ class Appointment2 {
   });
 }
 
-class HomePage extends StatefulWidget {
-  const HomePage({Key? key}) : super(key: key);
+class Time_Table extends StatefulWidget {
+  const Time_Table({Key? key}) : super(key: key);
 
   @override
-  _HomePageState createState() => _HomePageState();
+  TimeTable createState() => TimeTable();
 }
 
-class _HomePageState extends State<HomePage> {
+class TimeTable extends State<Time_Table> {
   late PageController _pageController;
   int _currentPageIndex = 0;
 

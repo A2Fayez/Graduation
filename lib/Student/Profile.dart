@@ -3,10 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Student/Student_Page.dart';
 
-void main() {
-  runApp(Profile());
-}
-
 class Profile extends StatelessWidget {
   const Profile({Key? key}) : super(key: key);
 

@@ -6,10 +6,6 @@ import 'package:second_project/Login_Screen.dart';
 import 'package:second_project/Admin/Doctors.dart';
 import 'Students.dart';
 
-void main() {
-  runApp(Admin_Page());
-}
-
 class Admin_Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(

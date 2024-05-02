@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Student/Student_Page.dart';
 
-void main() {
-  runApp(Student_Assign());
-}
-
 class Student_Assign extends StatelessWidget {
-  //MyApp();
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

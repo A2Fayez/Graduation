@@ -1,19 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:second_project/Student/Student_Page.dart';
 
-void main() {
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Time_Table(),
-    );
-  }
-}
-
 class Appointment {
   final String subject;
   final String time;
